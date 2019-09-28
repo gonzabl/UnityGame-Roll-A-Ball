@@ -5,10 +5,10 @@ using UnityEngine.UI; // libreria para usar la interfaz grafica de usuario.Cuand
 
 public class ControladorDelJugador : MonoBehaviour {
 	// cuando queramos aplicarle una fuerza al Rigidbody simplemente lo llamamos usando la variable rb.	
-	// importante agregar el public para que aparezca en el inspector de unity 
+	// importante agregar public para que aparezca en el inspector de unity.
 	Rigidbody rb;
-	public Text puntuacion; // luego de declararlo hay que asignar la referencia al objeto arastrando el mismo hacia la variable que aparece en la pestaña del
-							// inspector en jugador.
+	public Text puntuacion; // luego de declararlo hay que asignar la referencia al objeto arrastrando el mismo
+				//hacia la variable que aparece en la pestaña del inspector en jugador.
 	public float velocidad;
 	int contador;
 	public Text ganar;
