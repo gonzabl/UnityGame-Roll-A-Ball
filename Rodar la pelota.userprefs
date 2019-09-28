@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Codigo\Salir.cs">
+    <Files>
+      <File FileName="Assets\Codigo\ControladorDeLaCamara.cs" Line="1" Column="1" />
+      <File FileName="Assets\Codigo\giro.cs" Line="1" Column="1" />
+      <File FileName="Assets\Codigo\ControladorDelJugador.cs" Line="31" Column="36" />
+      <File FileName="Assets\Codigo\Salir.cs" Line="5" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
