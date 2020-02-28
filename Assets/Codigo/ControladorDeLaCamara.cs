@@ -11,6 +11,10 @@ public class ControladorDeLaCamara : MonoBehaviour {
 
 	// Use this for initialization 
 	void Start () {
+		//Start se ejecuta cuando el objeto se inicia y Awake siempre tanto si el objeto esta vacio o no.
+		// la diferencia entre estos dos es que en Awake() se busca obtener referencias a los componentes y sus variables y 
+		// en Start() inicializar esas variables
+		
 		// obtenemos la posicion relativa de la camara con respecto al jugador
 		// restar la "x" de la pelota a la "x" de la camara, la "y" de una y otra y "z" de una y otra.
 		// unity permite restar dos objetos de tipo vector, y se restaran los campos automaticamente.
