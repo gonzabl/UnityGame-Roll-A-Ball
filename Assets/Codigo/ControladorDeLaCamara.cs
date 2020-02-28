@@ -7,6 +7,8 @@ public class ControladorDeLaCamara : MonoBehaviour {
 	// Usar Awake() para obtener referencias a las variables y usarlas en Start()
 	// todos los objetos que aparecen en la pestaña herencia son de tipo GameObject
 	public GameObject jugador;
+	
+	// Esta variable contendra la distancia de la camara a la pelota en cada una de las 3 coordenadas.
 	private Vector3 posicionRelativa;
 
 	// Use this for initialization 
