@@ -21,7 +21,7 @@ public class ControladorDelJugador : MonoBehaviour {
 	public void OnTriggerEnter(Collider other){
 		// Metodo para las colisiones entre objetos, aqui es cuando el jugador colisiona con otro.
 		// En el caso de los items en Inspector->BoxCollider-> isTrigger, si lo activamos el objeto no colisionara.
-		Destroy(other.gameObject);
+		Destroy(other.gameObject); // Destruimos el gameObject que colisiona con el jugador.
 		// de esta forma destruimos el objeto que colisiona la pelota y esta marcado con Is Trigger
 
 		// Las variables se actualizan cada vez que hay una colision 
