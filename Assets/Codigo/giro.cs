@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class giro : MonoBehaviour {
-	// inicializamos valores en los cuales queremos que rote. Es decir cuanto girara en x, y , z.
+	// inicializamos valores en los cuales queremos que rote, es decir, cuanto girara en x, y , z en cada frame. 
+	// (Una especie de animacion o movimiento)
 
 	Vector3 rotacion = new Vector3(15,30,45);
 	// Use this for initialization
