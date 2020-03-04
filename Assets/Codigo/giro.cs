@@ -13,6 +13,13 @@ public class giro : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
+	/*
+	Que pasaría si rotamos 15 grados en x en cada fotograma, si cada fotograma se ejecuta 30 veces por segundo, estaríamos rotando 30 
+	veces 15 en un segundo. Unity tiene una variable que cuenta el tiempo que ha pasado de fotograma en fotograma. De modo que, si
+	definimos velocidades por segundo, si la multiplicamos por ese tiempo, nos va a dar la cantidad que debe moverse en un fotograma 
+	en concreto. Time.deltaTime tendrá el valor del tiempo en segundo (que será muy pequeño) que ha pasado del ultimo fotograma y el
+	actual.
+	*/
 	void Update () {
 		transform.Rotate (rotacion*Time.deltaTime);
 	}
