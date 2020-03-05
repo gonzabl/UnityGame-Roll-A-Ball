@@ -36,12 +36,12 @@ public class ControladorDelJugador : MonoBehaviour {
 		// Aqui iria el codigo de inicializacion que usaremos para obtener 
 		// referencias a otros componentes.
 
-		// Cuando creamos objetos para que aparescan en nuestro mundo 3d y queremos que
+		// Cuando creamos objetos para que aparezcan en nuestro mundo 3d y queremos que
 		// se ejecuten, apareceran aqui.
 
 		rb = GetComponent<Rigidbody>();
-		// GetComponet<TipoDeComp>() sirve para obtener una referencia a otro 
-		// componente del mismo objeto en el que esta colocado este script
+		// GetComponet<TipoDeComp>() sirve para obtener una referencia a otro componente del mismo objeto en el que 
+		// esta colocado este script
 
 		contador = 0;
 		actualizarMarcador ();
